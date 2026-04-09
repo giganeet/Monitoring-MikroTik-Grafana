@@ -25,6 +25,4 @@ services:
       -monitoring
     ports:
       -9090:9090
-  snmp-exporter:
-
-grafana
+  
