@@ -1,0 +1,9 @@
+global:
+  scape_interval: 10s
+  evaluation_interval: 10s
+
+scape_configs:
+  -job_name: "prometheus"
+    scape_interval: 5s
+    scape_configs:
+      - targets: ["localhost:9090"]
